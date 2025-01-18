@@ -1,0 +1,102 @@
+header img {
+    margin: 2rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.cabecalho {
+    height: 9rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: normal;
+    border-bottom: 0.12rem solid gray;
+}
+
+.botoes__navegacao {
+    margin: 3.12rem 0.31rem 3.12rem 3.12rem;
+    list-style: none;
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 0.8rem;
+    opacity: 0.6;  
+    transition: all 0.4s;
+}
+
+.botoes__navegacao:hover {
+    opacity: 1;
+    transform: translateY(-0.5rem);
+    cursor: pointer;
+}
+
+.seta__acao {
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.botoes__inicio {
+    font-size: 0.69rem;
+    display: flex;
+    flex-direction: normal;
+    align-items: center;
+    height: 9rem;
+}
+
+.cabecalho__direita {
+    height: 9rem;
+    display: flex;
+    flex-direction: normal;
+    align-items: center;
+}
+
+.lista__direita {
+    list-style: none;
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 0.69rem;
+    position: fixed;
+    right: 2rem;
+}
+
+.botao__orcamento {
+    background-color: var(--laranja);
+    padding: 1.5rem;
+    border-radius: 4rem;
+    margin: 0 2rem;
+    opacity: 0.6;
+    transition: all 0.4s;
+}
+
+button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.icone__perfil svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 0.6;  
+    transition: all 0.4s;
+}
+    
+.icone__perfil svg:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.icone__lista svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    opacity: 0.6;  
+    transition: all 0.4s;
+}
+
+.icone__lista svg:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
