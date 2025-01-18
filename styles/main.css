@@ -1,0 +1,49 @@
+.imagem__placa {
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 9rem;
+}
+
+.texto__principal {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 350px;
+    top: 400px;
+}
+
+.lista__texto {
+    display: flex;
+    flex-direction: normal;
+    align-items: center;
+    list-style: none;
+    font-size: 10px;
+}
+
+.item__lista1 {
+    list-style: square;
+}
+
+.item__lista1::marker {
+    color: var(--laranja);
+}
+
+.botao__saibamais {
+    width: 15rem;
+    background-color: var(--laranja);
+    padding: 1.5rem;
+    border-radius: 4rem;
+    margin: 0 2rem;
+    opacity: 0.6;
+    transition: all 0.4s;
+    text-align: left;
+}
+
+button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
