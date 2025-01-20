@@ -10,6 +10,7 @@ header img {
     display: flex;
     flex-direction: normal;
     border-bottom: 0.12rem solid gray;
+    letter-spacing: 2px;
 }
 
 .botoes__navegacao {
@@ -68,6 +69,7 @@ header img {
     margin: 0 2rem;
     opacity: 0.6;
     transition: all 0.4s;
+    letter-spacing: 2px;
 }
 
 button:hover {

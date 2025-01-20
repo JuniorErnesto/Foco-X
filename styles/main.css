@@ -13,6 +13,7 @@
     position: relative;
     left: 350px;
     top: 400px;
+    letter-spacing: 2px;
 }
 
 .lista__texto {
@@ -24,7 +25,7 @@
 }
 
 .item__lista1 {
-    list-style: square;
+    list-style: disc;
 }
 
 .item__lista1::marker {
@@ -40,6 +41,7 @@
     opacity: 0.6;
     transition: all 0.4s;
     text-align: left;
+    letter-spacing: 2px;
 }
 
 button:hover {
