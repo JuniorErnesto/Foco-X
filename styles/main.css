@@ -1,32 +1,43 @@
-.imagem__placa {
+main {
+    display: flex;
+}
+
+.imagem__principal {
     width: 50%;
     height: 100vh;
     position: fixed;
     right: 0;
-    top: 9rem;
+}
+
+.imagem__placa {
+    width: 100%;
 }
 
 .texto__principal {
     width: 50%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    position: relative;
-    left: 350px;
-    top: 400px;
-    letter-spacing: 2px;
+    position: fixed;
+    left: 0;
+    align-items: center;
+    justify-content: top;
+    margin: 8rem 0;
 }
 
 .lista__texto {
+    margin: 2rem;
     display: flex;
     flex-direction: normal;
     align-items: center;
     list-style: none;
-    font-size: 10px;
+    font-size: 15px;
+    letter-spacing: 2px;
 }
 
 .item__lista1 {
     list-style: disc;
-    margin: 0 25px;
+    margin: 0 3rem;
 }
 
 .item__lista1::marker {
@@ -43,10 +54,20 @@
     transition: all 0.4s;
     text-align: left;
     letter-spacing: 2px;
+    position: relative;
+    left: -11rem;
+    margin-top: 5rem;
 }
 
 button:hover {
     opacity: 1;
     cursor: pointer;
+}
+
+.paragrafo__principal {
+    font-size: 6rem;
+    margin: 1rem 12rem;
+    text-align: center;
+
 }
 

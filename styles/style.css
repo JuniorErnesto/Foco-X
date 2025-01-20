@@ -32,6 +32,11 @@
     letter-spacing: 2px;
   }
 
+  .pagina__principal {
+    height: 100vh;
+    position: relative;
+  }
+
   
   #app {
     display: flex;
