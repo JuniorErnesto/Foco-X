@@ -26,6 +26,7 @@
 
 .item__lista1 {
     list-style: disc;
+    margin: 0 25px;
 }
 
 .item__lista1::marker {

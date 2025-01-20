@@ -29,6 +29,7 @@
   body {
     color: var(--branco);
     font: 400 1rem var(--fonte-principal);
+    letter-spacing: 2px;
   }
 
   
