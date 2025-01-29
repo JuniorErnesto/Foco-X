@@ -1,73 +1,23 @@
 main {
+    border-bottom: 1px solid var(--branco);
+    font-family: var(--fonte-principal);
+}
+
+.pagina__principal {
     display: flex;
+    flex-direction: row;
+}
+
+.pagina__home {
+    color: var(--branco);
 }
 
 .imagem__principal {
-    width: 50%;
-    height: 100vh;
-    position: fixed;
-    right: 0;
+    width: 60%;
+    height: 100%;
 }
 
-.imagem__placa {
-    width: 100%;
-}
-
-.texto__principal {
-    width: 50%;
-    height: 100vh;
+.imagem__home div {
     display: flex;
-    flex-direction: column;
-    position: fixed;
-    left: 0;
-    align-items: center;
-    justify-content: top;
-    margin: 8rem 0;
+    justify-content: flex-end;
 }
-
-.lista__texto {
-    margin: 2rem;
-    display: flex;
-    flex-direction: normal;
-    align-items: center;
-    list-style: none;
-    font-size: 15px;
-    letter-spacing: 2px;
-}
-
-.item__lista1 {
-    list-style: disc;
-    margin: 0 3rem;
-}
-
-.item__lista1::marker {
-    color: var(--laranja);
-}
-
-.botao__saibamais {
-    width: 15rem;
-    background-color: var(--laranja);
-    padding: 1.5rem;
-    border-radius: 4rem;
-    margin: 0 2rem;
-    opacity: 0.6;
-    transition: all 0.4s;
-    text-align: left;
-    letter-spacing: 2px;
-    position: relative;
-    left: -11rem;
-    margin-top: 5rem;
-}
-
-button:hover {
-    opacity: 1;
-    cursor: pointer;
-}
-
-.paragrafo__principal {
-    font-size: 6rem;
-    margin: 1rem 12rem;
-    text-align: center;
-
-}
-

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./main.css);
+
+
+:root {
+    --branco: #FFFFFF;
+    --laranja: #FF6500;
+    --azul: #1E3E62;
+    --azul-escuro: #0B192C;
+    --preto: #000000;
+    --fonte-principal: "Inter", serif;
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 13vh 1fr;
+    background-color: var(--preto);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    background-color: var(--preto);
+    padding: 1.2rem;
+    box-sizing: border-box; 
+    border-bottom: 1px solid var(--branco);
+}
+
+button {
+    border-radius: 3rem;
+    min-width: 15rem;
+    min-height: 4rem;
+    background-color: var(--laranja);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+}
