@@ -9,15 +9,21 @@ main {
 }
 
 .pagina__home {
+    text-align: center;
+    width: 50%;
+    height: 87vh;
     color: var(--branco);
+
 }
 
-.imagem__principal {
-    width: 60%;
-    height: 100%;
+.imagem__home {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .imagem__home div {
     display: flex;
     justify-content: flex-end;
+    width: 60%;
+    height: 87vh;
 }
