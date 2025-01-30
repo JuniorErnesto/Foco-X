@@ -1,0 +1,9 @@
+.final__conteudo {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    background-color: var(--preto);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;    
+}
