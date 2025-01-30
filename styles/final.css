@@ -1,4 +1,5 @@
 .final__conteudo {
+    display: flex;
     font-family: var(--fonte-principal);
     color: var(--branco);
     background-color: var(--preto);
