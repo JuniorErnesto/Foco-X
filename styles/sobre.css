@@ -1,0 +1,4 @@
+.pagina__sobre {
+    display: flex;
+    flex-direction: column;
+}

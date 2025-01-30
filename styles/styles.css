@@ -3,6 +3,7 @@
 @import url(./header.css);
 @import url(./main.css);
 @import url(./solucoes.css);
+@import url(./produtos.css);
 
 
 :root {
@@ -58,7 +59,7 @@ button:hover {
     transform: translateY(-5px); 
 }
 
-.pagina__dois {
+.pagina__dois, .pagina__tres, .pagina__quatro {
     font-family: var(--fonte-principal);
     background-color: var(--branco);
     margin: 0;

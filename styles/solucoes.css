@@ -30,7 +30,7 @@
 }
 
 .imagem__tecnico {
-    padding: 0 0 10% 60%;
+    padding: 0 0 10% 55%;
 }
 
 .solucoes__pagina {
@@ -40,7 +40,8 @@
 }
 
 .corpo__solucoes {
-    width: 60%;
+    width: 40%;
+    padding-right: 180px;
     text-align: center;
     line-height: 1.5;
 }
@@ -71,11 +72,19 @@
     display: flex;
     justify-content: center;
     text-align: justify;
-    padding: 3rem 3rem 3rem 16rem;
+    padding: 3rem 8rem 1rem 16rem;
     width: 60%;
     white-space: nowrap;
 }
 
 .solucoes__lista {
     font-size: 2rem;
+}
+
+.fa-bolt {
+    padding-right: 1%;
+}
+
+.fa-diamond {
+    color: var(--preto)
 }
