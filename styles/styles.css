@@ -2,6 +2,7 @@
 @import url(./reset.css);
 @import url(./header.css);
 @import url(./main.css);
+@import url(./solucoes.css);
 
 
 :root {
@@ -55,4 +56,12 @@ button:hover {
     opacity: 1;
     transition: all 0.4s;  
     transform: translateY(-5px); 
+}
+
+.pagina__dois {
+    font-family: var(--fonte-principal);
+    background-color: var(--branco);
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }

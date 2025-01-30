@@ -1,0 +1,30 @@
+.head__solucoes {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo__solucoes {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.solucoes__paragrafo {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.paragrafo__solucoes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    width: 33%;
+}
+
+.fa-hand-point-right {
+    padding-right: 1rem;
+}
