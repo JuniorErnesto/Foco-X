@@ -26,7 +26,6 @@
 }
 
 .indice__cabecalho {
-    list-style: disc;
     opacity: 0.8;
     transition: all 0.4s;
 }
@@ -35,10 +34,6 @@
     opacity: 1;
     transition: all 0.4s;
     transform: translateY(-5px);
-}
-
-.indice__cabecalho::marker {
-    color: var(--laranja);
 }
 
 .lista {
@@ -75,6 +70,7 @@
     letter-spacing: 1px;
     opacity: 0.8;
     transition: all 0.4s;
+    white-space: nowrap;
 }
 
 .suporte:hover {
