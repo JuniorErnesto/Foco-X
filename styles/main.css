@@ -1,29 +1,89 @@
 main {
-    border-bottom: 1px solid var(--branco);
+    width: 100%;
+    border-bottom: 1px solid var(--cinza);
     font-family: var(--fonte-principal);
 }
 
 .pagina__principal {
     display: flex;
     flex-direction: row;
+    height: 86vh; /* Ajuste a altura para 100% da viewport */
+    width: 100vw; /* Ajuste a largura para 100% da viewport */
+    margin: 0; /* Remova as margens para evitar espaços indesejados */
+    padding: 0; /* Remova os padding para evitar espaços indesejados */
 }
 
 .pagina__home {
-    text-align: center;
-    width: 50%;
-    height: 87vh;
+    width: 75%;
+    height: 46vh;
+    margin-top: 10%;
     color: var(--branco);
-
+    text-align: center;
 }
 
 .imagem__home {
-    display: flex;
+    width: 48%;
+    height: 86vh;
     justify-content: flex-end;
 }
 
 .imagem__home div {
+    width: max-content;
+    height: 86vh;
+}
+
+.itens__lista__home {
     display: flex;
-    justify-content: flex-end;
-    width: 60%;
-    height: 87vh;
+    justify-content: center;
+    padding-block: 2rem;
+    width: 100%;
+}
+
+.itens__home__1 {
+    list-style: disc;
+    padding-right: 2rem;
+}
+
+.itens__home__1::marker {
+    color: var(--laranja);
+}
+
+.texto__home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-block: 2rem;
+    font-weight: 200;
+    font-size: calc(2rem + 2vw);
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.texto__destaque {
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+.texto__semDestaque {
+    width: 50%;
+}
+
+.saiba__mais {
+    padding-block: 2rem;
+    width: 100%;
+}
+
+.botao__saibaMais {
+    padding-left: 2rem;
+    text-align: left;
+    min-width: 13rem;
+}
+
+.fa-arrow-right {
+    padding: 0 1em 0 4em;
+}
+
+strong {
+    font-weight: 700;
 }

@@ -9,6 +9,7 @@
     --laranja: #FF6500;
     --azul: #1E3E62;
     --azul-escuro: #0B192C;
+    --cinza: grey;
     --preto: #000000;
     --fonte-principal: "Inter", serif;
   }
@@ -16,6 +17,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -28,11 +30,11 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    align-items: flex-start;
+    align-items: center;
     background-color: var(--preto);
     padding: 1.2rem;
     box-sizing: border-box; 
-    border-bottom: 1px solid var(--branco);
+    border-bottom: 1px solid var(--cinza);
 }
 
 button {
