@@ -14,7 +14,7 @@
 .solucoes__paragrafo {
     display: flex;
     justify-content: center;
-    padding: 3%;
+    padding: 1.5%;
 }
 
 .paragrafo__solucoes {
@@ -22,9 +22,60 @@
     justify-content: center;
     text-align: center;
     font-size: 2.5rem;
-    width: 33%;
+    width: 50%;
 }
 
 .fa-hand-point-right {
     padding-right: 1rem;
+}
+
+.imagem__tecnico {
+    padding: 0 0 10% 60%;
+}
+
+.solucoes__pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.corpo__solucoes {
+    width: 60%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.texto__dificuldade {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.texto__solucoes {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-block: 1rem;
+}
+
+.texto__solucoes p {
+    align-items: center;
+    width: 35%;
+}
+
+.botao__solucoes {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.lista__div {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 3rem 3rem 3rem 16rem;
+    width: 60%;
+    white-space: nowrap;
+}
+
+.solucoes__lista {
+    font-size: 2rem;
 }

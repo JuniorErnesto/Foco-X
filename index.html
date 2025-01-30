@@ -21,7 +21,7 @@
             <div class="indice">
                 <ul class="indice__lista">
                     <li class="indice__cabecalho"><a class="lista" href="./index.html">HOME <i class="fa fa-angle-down"></i></a></li>
-                    <li class="indice__cabecalho"><a class="lista" href="#">SOLUÇÕES <i class="fa fa-angle-down"></i></a></li>
+                    <li class="indice__cabecalho"><a class="lista" href="#" onclick="rolarParaSecao('solucoes')">SOLUÇÕES <i class="fa fa-angle-down"></i></a></li>
                     <li class="indice__cabecalho"><a class="lista" href="#">PRODUTOS <i class="fa fa-angle-down"></i></a></li>
                     <li class="indice__cabecalho"><a class="lista" href="#">SOBRE NÓS <i class="fa fa-angle-down"></i></a></li>
                 </ul>
@@ -41,7 +41,7 @@
         </nav>
     </header>
     <main>
-        <section class="pagina__principal">
+        <section class="pagina__principal" id="home">
             <nav class="pagina__home">
                 <div class="lista__home">
                     <ul class="itens__lista__home">
@@ -62,7 +62,7 @@
                 </div>
             </nav>
         </section>
-        <section class="pagina__dois">
+        <section class="pagina__dois" id="solucoes">
             <nav class="background__solucoes">
                 <div class="background">
             </nav>
@@ -75,6 +75,34 @@
                         <p class="paragrafo__solucoes">Especialistas em manutenção eletrônica prontos para atender sua demanda</p>
                     </div>
                 </div>     
+            </nav>
+            <nav class="solucoes__pagina">
+                <nav class="imagem__solucoes">
+                    <div class="imagem__tecnico">
+                        <img src="./assets/tecnico.jpg" alt="">
+                    </div>
+                </nav>
+                <nav class="corpo__solucoes">
+                    <div class="texto__dificuldade">
+                        <h1><i class="fa fa-hand-point-right"></i>QUAL É A SUA DIFICULDADE?</h1>
+                    </div>
+                    <div class="texto__solucoes">
+                        <p>Somos especialistas e vamos te auxiliar em probelmas técnicos.
+                            Desde uma simples limpeza até o mais complexo inversor de frequência.
+                            Para todos os momentos, a Foco-X tem a solução. </p>
+                    </div>
+                    <div class="botao__div">
+                        <button class="botao__solucoes">ENTRE EM CONTATO</button>
+                    </div>
+                    <div class="lista__div">
+                        <ul class="lista__solucoes">
+                            <li class="solucoes__lista">INVERSOR DE FREQUÊNCIA</li>
+                            <li class="solucoes__lista">REPAROS DE PLACAS ELETRÔNICAS</li>
+                            <li class="solucoes__lista">SOLUÇÕES EM AUTOMAÇÃO</li>
+                            <li class="solucoes__lista">INSTRUMENTAÇÃO INDUSTRIAL</li>
+                        </ul>
+                    </div>
+                </nav>
             </nav>
         </section>
     </main>
