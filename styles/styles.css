@@ -11,7 +11,7 @@
     --azul-escuro: #0B192C;
     --cinza: grey;
     --preto: #000000;
-    --fonte-principal: "Inter", serif;
+    --fonte-principal: "Space Grotesk", serif;
   }
 
 html, body {
@@ -28,7 +28,8 @@ body {
 
 .cabecalho {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: 64px;
     width: 100%;
     align-items: center;
     background-color: var(--preto);
@@ -44,4 +45,14 @@ button {
     background-color: var(--laranja);
     font-family: var(--fonte-principal);
     font-weight: 600;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+    transition: all 0.4s;  
+    transform: translateY(-5px); 
 }
