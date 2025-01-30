@@ -1,4 +1,53 @@
+.pagina__quatro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem__produto img {
+    width: 100%;
+    height: 100vh;
+}
+
+.imagem__produto {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .texto__produto {
     display: flex;
     flex-direction: column;
+    column-gap: 2rem;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.titulo__sobre {
+    padding: 2rem 0;
+    font-weight: 700;
+}
+
+.paragrafo__quatro {
+    width: 60%;
+    padding-block: 2rem;
+    font-size: 24px;
+}
+
+.paragrafo__sobre {
+    width: 60%;
+    font-size: 24px;
+}
+
+.botao__sobre {
+    margin: 20px;
+    background-color: var(--preto);
+    color: var(--branco);
+
+}
+
+#seta__direita {
+    padding-right: 1rem;
+    padding-left: 0;
 }
