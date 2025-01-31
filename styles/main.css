@@ -81,8 +81,14 @@ main {
 }
 
 .saiba__mais {
+    display: flex;
+    justify-content: center;
     padding-block: 2rem;
     width: 100%;
+}
+
+.saiba__mais a {
+    width: 30%;
 }
 
 .botao__saibaMais {

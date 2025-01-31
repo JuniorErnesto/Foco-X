@@ -14,6 +14,7 @@
 .solucoes__paragrafo {
     display: flex;
     justify-content: center;
+    width: 100vw;
     padding: 1.5%;
 }
 
@@ -29,21 +30,32 @@
     padding-right: 1rem;
 }
 
-.imagem__tecnico {
-    padding: 0 0 10% 55%;
-}
-
 .solucoes__pagina {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 67%;
+    padding-top: 5rem;
 }
 
 .corpo__solucoes {
-    width: 40%;
-    padding-right: 180px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    width: 50%;
     line-height: 1.5;
+    margin-right: 5rem;
+}
+
+.imagem__solucoes {
+    width: 50%;
+    max-height: fit-content;
+}
+
+.imagem__tecnico {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
 }
 
 .texto__dificuldade {
@@ -53,14 +65,9 @@
 
 .texto__solucoes {
     display: flex;
-    justify-content: center;
     text-align: justify;
+    width: 100%;
     padding-block: 1rem;
-}
-
-.texto__solucoes p {
-    align-items: center;
-    width: 35%;
 }
 
 .botao__solucoes {
@@ -68,12 +75,22 @@
     color: var(--branco);
 }
 
+.botao__div {
+    display: flex;
+    justify-content: center;
+}
+
+.botao__div a {
+    width: 40%;
+    background-color: var(--preto);
+}
+
 .lista__div {
     display: flex;
     justify-content: center;
-    text-align: justify;
-    padding: 3rem 8rem 1rem 16rem;
-    width: 60%;
+    text-align: center;
+    padding-block: 4rem;
+    width: 100%;
     white-space: nowrap;
 }
 

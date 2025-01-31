@@ -61,7 +61,7 @@
     width: 100%;
 }
 
-.suporte {
+.indice__direita {
     color: var(--branco);
     text-decoration: none;
     font-family: var(--fonte-principal);
@@ -73,7 +73,7 @@
     white-space: nowrap;
 }
 
-.suporte:hover {
+.indice__direita:hover {
     opacity: 1;
     transition: all 0.4s;
     transform: translateY(-5px);
