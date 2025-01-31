@@ -5,6 +5,80 @@
     background-color: var(--preto);
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 87vh;
     width: 100vw;    
 }
+
+.final__direita {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 84vh;
+}
+
+.final__esquerda {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 84vh;
+}
+
+.conteudo__direita {
+    padding-left: 5rem;
+}
+
+.conteudo__direita p {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.conteudo__esquerda {
+    padding-top: 10rem;
+    padding-right: 5rem;
+    line-height: 1.5;
+}
+
+.conteudo__esquerda p {
+    padding-bottom: 2rem;
+}
+
+.conteudo__esquerda h1 {
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+
+.conteudo__esquerda h2 {
+    padding-bottom: 2rem;
+}
+
+.footer__texto {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.footer__conteudo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.cnpj {
+    width: 30vw;
+}
+
+.copyright {
+    width: 30vw;
+}
+
+.texto__cnpj {
+    width: 30vw;
+}
+
+.texto__copy{
+    padding-left: 40rem;
+    width: 30vw;
+}
+

@@ -8,7 +8,7 @@ main {
     display: flex;
     flex-direction: row;
     height: 86vh; /* Ajuste a altura para 100% da viewport */
-    width: 100%; /* Ajuste a largura para 100% da viewport */
+    width: 100vw; /* Ajuste a largura para 100% da viewport */
     margin: 0; /* Remova as margens para evitar espaços indesejados */
     padding: 0; /* Remova os padding para evitar espaços indesejados */
 }
