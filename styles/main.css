@@ -98,27 +98,3 @@ main {
 strong {
     font-weight: 700;
 }
-
-@media (max-width: 768px) {
-    .pagina__principal {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        height: 50vh;
-    }
-
-    .pagina__home {
-        margin-top: 2%;
-    }
-
-
-    .imagem__home {
-        justify-content: center;
-        width: 100%;
-    }
-
-    .imagem__home img {
-        object-fit: cover;
-    }
-}

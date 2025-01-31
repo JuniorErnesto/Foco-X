@@ -51,6 +51,8 @@ footer {
 }
 
 button {
+    text-decoration: none;
+    color: var(--branco);
     border-radius: 3rem;
     min-width: 15rem;
     min-height: 4rem;

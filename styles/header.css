@@ -106,30 +106,3 @@
     color: var(--branco);
     visibility: hidden;
 }
-
-@media (max-width: 1200px) {
-
-}
-
-@media (max-width: 768px) {
-    .fa-bars {
-        visibility: visible;
-    }
-
-    .indice {
-        visibility: hidden;
-    }
-
-    .cabecalho__esquerdo {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        width: 50%;
-    }
-
-    .cabecalho__esquerdo img {
-        justify-content: center;
-    }
-
-
-}
