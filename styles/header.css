@@ -106,3 +106,10 @@
     color: var(--branco);
     visibility: hidden;
 }
+
+@media (min-widt: 1000px) {
+    .fa-bars {
+        color: var(--branco);
+        visibility: visible;
+    }
+}
