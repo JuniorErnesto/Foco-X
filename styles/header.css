@@ -2,11 +2,17 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-left: 20px;
 }
 
 .logo__focox {
     width: 5rem;
     height: auto;
+}
+
+.logo__focox img {
+    border: 1px solid var(--cinza);
+    border-radius: 50%;
 }
 
 .indice {
@@ -41,10 +47,6 @@
     text-decoration: none;
     padding-right: 3rem;
     white-space: nowrap;
-}
-
-.cabecalho__esquerdo div img {
-    margin-right: 2rem;
 }
 
 .cabecalho__direito div {
@@ -107,9 +109,8 @@
     visibility: hidden;
 }
 
-@media (min-widt: 1000px) {
+@media (min-widt: 1020px) {
     .fa-bars {
-        color: var(--branco);
         visibility: visible;
     }
 }
