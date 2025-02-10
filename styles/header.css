@@ -2,11 +2,10 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-left: 20px;
 }
 
 .logo__focox {
-    width: 5rem;
+    width: 13%;
     height: auto;
 }
 
