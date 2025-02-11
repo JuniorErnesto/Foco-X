@@ -55,7 +55,9 @@
 .imagem__tecnico {
     display: flex;
     justify-content: center;
-    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    /* object-fit: cover; */
 }
 
 .texto__dificuldade {

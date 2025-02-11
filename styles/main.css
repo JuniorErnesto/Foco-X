@@ -7,33 +7,30 @@ main {
 .pagina__principal {
     display: flex;
     flex-direction: row;
-    height: 86vh; /* Ajuste a altura para 100% da viewport */
-    width: 100vw; /* Ajuste a largura para 100% da viewport */
     margin: 0; /* Remova as margens para evitar espaços indesejados */
     padding: 0; /* Remova os padding para evitar espaços indesejados */
 }
 
 .pagina__home {
-    width: 75%;
-    height: 50h;
+    width: 50vw;
+    height: 100vh;
     margin-top: 7%;
     color: var(--branco);
-    text-align: center;
 }
 
 .imagem__home {
-    width: 60%;
-    height: 86vh;
+    width: 50vw;
+    height: 100vh;
     justify-content: flex-end;
 }
 
-.imagem_placa {
-    width: max-content;
-    height: 86vh;
-}
+/* .imagem_placa {
+    width: 100vw;
+    height: auto;
+} */
 
 .imagem__principal {
-    height: 100%; 
+    height: auto; 
     width: 50vw;
 }
 
@@ -103,4 +100,82 @@ main {
 
 strong {
     font-weight: 700;
+}
+
+/* Para telas menores que 768px (tablets e celulares) */
+@media (max-width: 1200px) {
+    .pagina__principal {
+        flex-direction: column; /* Muda a direção para coluna em telas pequenas */
+        height: 100vh; /* Ajusta a altura */
+    }
+
+    .pagina__home {
+        width: 100%; /* Ocupa toda a largura da tela */
+        text-align: center;
+    }
+
+    .imagem__home {
+        width: 100%; /* A imagem ocupa toda a largura disponível */
+        height: auto; /* Ajusta a altura da imagem */
+    }
+
+    .imagem__principal {
+        width: 100vw; /* Ajusta a largura da imagem */
+        height: auto; /* Ajusta a altura da imagem */
+    }
+
+    .texto__home {
+        font-size: 1.5rem; /* Tamanho de fonte menor para telas pequenas */
+        padding-block: 1rem; /* Menos espaçamento */
+    }
+
+    .itens__lista__home {
+        flex-direction: column; /* Alinha os itens da lista verticalmente */
+    }
+
+    .itens__home__1, .itens__home {
+        font-size: 1rem; /* Ajuste do tamanho da fonte para itens menores */
+        padding-right: 0; /* Remove o padding para itens menores */
+        margin-bottom: 1rem; /* Espaçamento entre os itens */
+    }
+
+    .saiba__mais a {
+        width: 30%; /* Aumenta a largura do botão em dispositivos móveis */
+        font-size: 1rem; /* Ajusta o tamanho da fonte do botão */
+    }
+
+    .fa-arrow-right {
+        padding: 0 0.5rem; /* Ajuste o padding no ícone */
+    }
+}
+
+/* Para telas muito pequenas (celulares) */
+@media (max-width: 480px) {
+    .pagina__home {
+        font-size: 1rem; /* Ajuste de font-size */
+    }
+
+    .texto__home {
+        font-size: 1.2rem; /* Ajuste para telas muito pequenas */
+        padding-block: 1rem; /* Menos espaçamento */
+    }
+
+    .imagem__home {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem__principal {
+        width: 100%; /* Ajusta a imagem para ser 100% da largura */
+        height: auto;
+        object-fit: contain;
+    }
+
+    .saiba__mais a {
+        width: 40%; /* O botão ocupa 100% da largura */
+    }
+
+    .itens__lista__home {
+        padding-block: 1rem; /* Menos espaçamento vertical */
+    }
 }

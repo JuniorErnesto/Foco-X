@@ -14,6 +14,7 @@
 </head>
 <body>
     <header class="cabecalho">
+        <div class="container__cabecalho">
         <nav class="cabecalho__esquerdo">
             <div class="logo__focox">
                 <img src="./assets/Logo-correto-photoaidcom-cropped.jpg" height="100" width="100" alt="Logo FocoX">
@@ -26,10 +27,11 @@
                     <li class="indice__cabecalho"><a class="lista" href="#final">SOBRE NÓS <i class="fa fa-angle-down"></i></a></li>
                 </ul>
             </div>
+        </nav>
             <nav class="cabecalho__direito">
                 <div class="item__direito">
                     <a class="indice__direita" href="https://wa.me/5512991533709?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!" target="_blank">SUPORTE <i class="fa fa-angle-down"></i></a>
-                    <a class="button" href="https://wa.me/5512991533709?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!" target="_blank">SOLICITE UM ORÇAMENTO</a>
+                    <a class="button" id="botao__orcamento" href="https://wa.me/5512991533709?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!" target="_blank">SOLICITE UM ORÇAMENTO</a>
                 </div>
                 <div class="icones">
                     <span class="icones__direita"><i class="fa fa-user" href="#"></i></span>
@@ -38,7 +40,7 @@
                 <div>
                 </div>
             </nav>
-        </nav>
+        </div>
     </header>
     <main>
         <section class="pagina__principal" id="home">
@@ -79,7 +81,7 @@
             <nav class="solucoes__pagina">
                 <nav class="imagem__solucoes">
                     <div class="imagem__tecnico">
-                        <img src="./assets/tecnico.jpg" alt="">
+                        <img src="./assets/Manutenção.jpg" alt="">
                     </div>
                 </nav>
                 <nav class="corpo__solucoes">
@@ -188,4 +190,14 @@
     </main>
 </body>
 </html>
+<!-- Abaixo do seu código HTML -->
+<script>
+    const menuIcon = document.querySelector('.fa-bars');
+    const menuList = document.querySelector('.indice__lista');
+
+    menuIcon.addEventListener('click', () => {
+        menuList.classList.toggle('active');  // Alterna a classe 'active' para mostrar/ocultar o menu
+    });
+</script>
+
 

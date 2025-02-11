@@ -27,28 +27,24 @@ html, body {
 
 body {
     display: grid;
-    grid-template-rows: 13vh 1fr;
+    grid-template-rows: 8.6rem 1fr;
     background-color: var(--preto);
 }
 
 footer {
-    height: 13vh;
+    height: 8rem;
     width: 100vw;
     background-color: var(--laranja);
     opacity: 0.6;
 }
 
-.cabecalho {
-    display: flex;
-    justify-content: center;
-    column-gap: 4rem;
+/* .cabecalho {
     width: 100vw;
-    align-items: center;
     background-color: var(--preto);
-    padding: 1.2rem;
+    padding: 1rem 7.2rem;
     box-sizing: border-box; 
     border-bottom: 1px solid var(--cinza);
-}
+} */
 
 .button {
     display: flex;
@@ -57,7 +53,7 @@ footer {
     text-decoration: none;
     color: var(--preto);
     border-radius: 3rem;
-    min-width: 15rem;
+    min-width: 10rem;
     min-height: 4rem;
     background-color: var(--laranja);
     font-family: var(--fonte-principal);
