@@ -53,7 +53,7 @@ footer {
     text-decoration: none;
     color: var(--preto);
     border-radius: 3rem;
-    min-width: 10rem;
+    min-width: 15rem;
     min-height: 4rem;
     background-color: var(--laranja);
     font-family: var(--fonte-principal);
