@@ -7,6 +7,8 @@ main {
 .pagina__principal {
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    height: 85vh;
     margin: 0; /* Remova as margens para evitar espaços indesejados */
     padding: 0; /* Remova os padding para evitar espaços indesejados */
 }
@@ -20,18 +22,17 @@ main {
 
 .imagem__home {
     width: 50vw;
-    height: 100vh;
+    height: auto;
     justify-content: flex-end;
+    overflow: hidden; 
+    position: relative;
 }
 
-/* .imagem_placa {
-    width: 100vw;
-    height: auto;
-} */
-
 .imagem__principal {
-    height: auto; 
-    width: 50vw;
+    width: 100%; /* A imagem ocupa 100% da largura do contêiner */
+    height: 100%; /* A imagem ocupa 100% da altura do contêiner */
+    object-fit: cover; /* A imagem cobre todo o espaço do contêiner sem distorcer */
+    object-position: center; /* Centraliza a imagem dentro do contêiner */
 }
 
 .itens__lista__home {
@@ -140,7 +141,7 @@ strong {
     }
 
     .saiba__mais a {
-        width: 30%; /* Aumenta a largura do botão em dispositivos móveis */
+        width: 25%; /* Aumenta a largura do botão em dispositivos móveis */
         font-size: 1rem; /* Ajusta o tamanho da fonte do botão */
     }
 
@@ -172,7 +173,7 @@ strong {
     }
 
     .saiba__mais a {
-        width: 40%; /* O botão ocupa 100% da largura */
+        width: 30%; /* O botão ocupa 100% da largura */
     }
 
     .itens__lista__home {
