@@ -21,9 +21,9 @@ main {
 }
 
 .imagem__home {
-    width: 50vw;
+    width: 40vw;
     height: auto;
-    justify-content: flex-end;
+    padding-left: 8rem;
     overflow: hidden; 
     position: relative;
 }
@@ -31,8 +31,7 @@ main {
 .imagem__principal {
     width: 100%; /* A imagem ocupa 100% da largura do contêiner */
     height: 100%; /* A imagem ocupa 100% da altura do contêiner */
-    object-fit: cover; /* A imagem cobre todo o espaço do contêiner sem distorcer */
-    object-position: center; /* Centraliza a imagem dentro do contêiner */
+    object-fit: contain; /* A imagem cobre todo o espaço do contêiner sem distorcer */
 }
 
 .itens__lista__home {
