@@ -53,9 +53,9 @@
 }
 
 .imagem__tecnico {
-    display: flex;
+    display: none;
     justify-content: center;
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
     /* object-fit: cover; */
 }
@@ -88,7 +88,7 @@
 }
 
 .lista__div {
-    display: flex;
+    display: none;
     justify-content: center;
     text-align: center;
     padding-block: 4rem;
