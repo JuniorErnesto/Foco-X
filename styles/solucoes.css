@@ -122,6 +122,77 @@
     color: var(--preto)
 }
 
+@media (max-width: 1024px) {
+    .titulo__solucoes {
+        font-size: 48px;
+        font-weight: 700;
+        padding-top: 1rem;
+    }
+
+    .paragrafo__solucoes {
+        width: 100%;
+        font-size: 22px;
+        padding: 0;
+    }
+
+    .solucoes__pagina {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .corpo__solucoes {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .imagem__solucoes {
+        width: 50%;
+    }
+
+    .imagem__tecnico img {
+        width: 100%;
+        overflow: hidden; 
+        position: relative;
+        align-items: center;
+        padding-block: 1rem;
+    }
+
+    .texto__dificuldade {
+        font-size: 48px;
+        padding: 1rem;
+    }
+
+    .texto__solucoes {
+        padding: 0;
+    }
+
+    .botao__div {
+        padding: 1rem;
+    }
+
+    .botao__div a {
+        font-size: 22px;
+        width: 50px;
+    }
+
+    .corpo__solucoes p {
+        padding-inline: 1.5rem;
+        font-size: 22px;
+    }
+
+    .lista__div{
+        padding-block: 2rem;
+    }
+
+    .solucoes__lista {
+        font-size: 48px;
+    }
+}
+
 @media (max-width: 480px) {
     .titulo__solucoes {
         font-size: 19.2px;
@@ -132,25 +203,60 @@
     .paragrafo__solucoes {
         width: 100%;
         font-size: 16px;
-        padding: 1.2rem;
+        padding: 0;
     }
 
     .solucoes__pagina {
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 0;
     }
 
     .corpo__solucoes {
         display: flex;
-        justify-content: center;
+        align-items: center;
         width: 100%;
         margin: 0;
     }
 
     .imagem__solucoes {
-        width: 25vw;
-        height: 20vh;
-        object-fit: cover;
+        width: 50%;
+    }
+
+    .imagem__tecnico img {
+        width: 100%;
+        overflow: hidden; 
+        position: relative;
+        align-items: center;
+    }
+
+    .texto__dificuldade {
+        font-size: 19.2px;
+        padding: 0;
+    }
+
+    .texto__solucoes {
+        padding: 0;
+    }
+
+    .botao__div {
+        padding: 10px;
+    }
+
+    .botao__div a {
+        width: 20px;
+    }
+
+    .corpo__solucoes p {
+        padding-inline: 1.5rem;
+    }
+
+    .lista__div{
+        padding-block: 0.5rem;
+    }
+
+    .solucoes__lista {
+        font-size: 19.2px;
     }
 }

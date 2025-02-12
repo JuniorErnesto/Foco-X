@@ -83,8 +83,12 @@ main {
     width: 100%;
 }
 
+.saiba__mais button {
+    width: 100px;
+}
+
 .saiba__mais a {
-    width: 30%;
+    width: 50%;
 }
 
 .botao__saibaMais {
@@ -129,6 +133,7 @@ strong {
         height: 100vh;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .pagina__home {
@@ -139,8 +144,8 @@ strong {
     }
 
     .imagem__home {
-        width: 320px; /* A imagem ocupa toda a largura disponível */
-        height: 320px; /* Ajusta a altura da imagem */
+        width: 100vw; /* A imagem ocupa toda a largura disponível */
+        height: auto; /* Ajusta a altura da imagem */
     }
 
     .imagem__principal {
@@ -159,7 +164,7 @@ strong {
     }
 
     .itens__home__1, .itens__home {
-        font-size: 1rem; /* Ajuste do tamanho da fonte para itens menores */
+        font-size: 22px; /* Ajuste do tamanho da fonte para itens menores */
         padding-right: 0; /* Remove o padding para itens menores */
         margin-bottom: 1rem; /* Espaçamento entre os itens */
     }
@@ -170,7 +175,7 @@ strong {
 
     .saiba__mais a {
         width: 20%; /* Aumenta a largura do botão em dispositivos móveis */
-        font-size: 14px; /* Ajusta o tamanho da fonte do botão */
+        font-size: 22px; /* Ajusta o tamanho da fonte do botão */
     }
 
     .fa-arrow-right {
