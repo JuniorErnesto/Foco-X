@@ -79,3 +79,14 @@ footer {
     width: 100vw;
     border-bottom: 1px solid var(--branco);
 }
+
+.pagina__tres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/Gemini_Generated_Image_7z0gm57z0gm57z0g.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
