@@ -8,14 +8,14 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 85vh;
+    height: fit-content;
     margin: 0; /* Remova as margens para evitar espaços indesejados */
     padding: 0; /* Remova os padding para evitar espaços indesejados */
 }
 
 .pagina__home {
     width: 50vw;
-    height: 100vh;
+    height: auto;
     margin-top: 7%;
     color: var(--branco);
 }
@@ -25,12 +25,12 @@ main {
     height: auto;
     overflow: hidden; 
     position: relative;
+    align-items: center;
 }
 
 .imagem__principal {
     width: 100%; /* A imagem ocupa 100% da largura do contêiner */
     height: 100%; /* A imagem ocupa 100% da altura do contêiner */
-    object-fit: contain; /* A imagem cobre todo o espaço do contêiner sem distorcer */
 }
 
 .itens__lista__home {
@@ -94,21 +94,40 @@ main {
 }
 
 .fa-arrow-right {
-    padding: 0 1rem 0 3rem;
+    padding: 0 1rem 0 1.5rem;
 }
+
+.whatsapp__icon {
+    position: fixed;
+    bottom: 20px; 
+    right: 40px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    z-index: 100;
+    max-width: 100px;
+    max-width: 100px;
+    opacity: 0.5;
+    transition: all 0.4s;
+
+    &:hover {
+        opacity: 1;
+        transition: all 0.4s;
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+  }
 
 strong {
     font-weight: 700;
 }
 
 /* Para telas menores que 768px (tablets e celulares) */
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
     .pagina__principal {
         margin: 0;
         padding: 0;
         height: 100vh;
-        flex-direction: column; /* Muda a direção para coluna em telas pequenas */
-        height: 100vh; /* Ajusta a altura */
+        flex-direction: column;
         align-items: center;
     }
 
@@ -122,7 +141,6 @@ strong {
     .imagem__home {
         width: 320px; /* A imagem ocupa toda a largura disponível */
         height: 320px; /* Ajusta a altura da imagem */
-        padding-inline: 2rem;
     }
 
     .imagem__principal {
@@ -131,7 +149,7 @@ strong {
     }
 
     .texto__home {
-        font-size: 1.5rem; /* Tamanho de fonte menor para telas pequenas */
+        font-size: 3rem; /* Tamanho de fonte menor para telas pequenas */
         padding-block: 1rem; /* Menos espaçamento */
     }
 
@@ -151,8 +169,8 @@ strong {
     }
 
     .saiba__mais a {
-        width: 25%; /* Aumenta a largura do botão em dispositivos móveis */
-        font-size: 1rem; /* Ajusta o tamanho da fonte do botão */
+        width: 20%; /* Aumenta a largura do botão em dispositivos móveis */
+        font-size: 14px; /* Ajusta o tamanho da fonte do botão */
     }
 
     .fa-arrow-right {
@@ -162,36 +180,59 @@ strong {
     .indice__direita {
         display: none;
     }
+
+    .whatsapp__icon {
+        position: fixed;
+        bottom: 40px; 
+        right: 25px;
+        max-width: 80px;
+        max-width: 80px;
+        opacity: 1;
+    }
 }
 
 /* Para telas muito pequenas (celulares) */
 @media (max-width: 480px) {
+
+    .pagina__principal {
+        width: 100%;
+        height: auto;
+    }
+
     .pagina__home {
         font-size: 1rem; /* Ajuste de font-size */
+        margin-top: 0;
     }
 
     .texto__home {
         font-size: 1.2rem; /* Ajuste para telas muito pequenas */
-        padding-block: 1rem; /* Menos espaçamento */
+        padding-block: 0.5rem; /* Menos espaçamento */
     }
 
     .imagem__home {
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        width: 50%;
         height: auto;
     }
 
     .imagem__principal {
         width: 100%; /* Ajusta a imagem para ser 100% da largura */
         height: auto;
-        justify-content: center;
         object-fit: contain;
     }
 
+    .saiba__mais {
+        width: 100%;
+        padding-block: 0.5rem;
+    }
+
     .saiba__mais a {
-        width: 30%; /* O botão ocupa 100% da largura */
+        width: 20%; /* O botão ocupa 100% da largura */
+        font-size: 12px;
     }
 
     .itens__lista__home {
-        padding-block: 1rem; /* Menos espaçamento vertical */
+        padding-block: 0.5rem; /* Menos espaçamento vertical */
     }
 }
