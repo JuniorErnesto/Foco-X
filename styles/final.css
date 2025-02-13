@@ -101,5 +101,32 @@
     width: 30vw;
 }
 
+@media (max-width: 1024px) {
+    .final__conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .final__direita {
+        width: 100vw;
+    }
+
+    .mapa {
+        width: 100vw;
+    }
+
+    .final__esquerda {
+        width: 100vw;
+    }
+
+    .conteudo__esquerda {
+        align-items: center;
+    }
+
+    .menu__final-direita {
+        align-items: center;
+    }
+}
+
 
 
