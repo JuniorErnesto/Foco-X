@@ -218,20 +218,27 @@
 }
 
 @media (max-width: 480px) {
-
-}
-
-@media (max-width: 480px) {
     .titulo__solucoes {
         font-size: 18px;
         font-weight: 700;
         padding-top: 1rem;
     }
 
+    .superior__solucoes {
+        padding: 0;
+    }
+
     .paragrafo__solucoes {
         width: 100%;
-        font-size: 14px;
         padding: 0;
+    }
+
+    .solucoes__paragrafo p {
+        font-size: 15px;
+    }
+
+    .solucoes__head h1 {
+        font-size: 19.2px;
     }
 
     .solucoes__pagina {
@@ -261,23 +268,25 @@
         overflow: hidden; 
         position: relative;
         align-items: center;
-    }
-
-    .texto__dificuldade {
-        font-size: 19.2px;
         padding: 0;
     }
 
-    .texto__solucoes {
+    .texto__dificuldade {
+        padding: 10px 0 0 0;
+    }
+
+    .texto__dificuldade h1 {
+        font-size: 19.2px;
+    }
+
+    .texto__solucoes p {
+        width: 80%;
+        font-size: 15px;
         padding: 0;
     }
 
     .botao__div {
         padding: 10px;
-    }
-
-    .botao__div a {
-        width: 20px;
     }
 
     .corpo__solucoes p {

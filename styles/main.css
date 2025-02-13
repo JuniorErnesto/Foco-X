@@ -8,7 +8,7 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: fit-content;
+    height: 86vh;
     margin: 0; /* Remova as margens para evitar espaços indesejados */
     padding: 0; /* Remova os padding para evitar espaços indesejados */
 }
@@ -104,7 +104,7 @@ main {
 .whatsapp__icon {
     position: fixed;
     bottom: 20px; 
-    right: 40px; 
+    right: 20px; 
     border-radius: 50%; 
     cursor: pointer; 
     z-index: 100;
@@ -201,7 +201,7 @@ strong {
 
     .pagina__principal {
         width: 100%;
-        height: auto;
+        height: 87vh;
     }
 
     .pagina__home {
@@ -217,7 +217,7 @@ strong {
     .imagem__home {
         display: flex;
         justify-content: center;
-        width: 50%;
+        width: 75%;
         height: auto;
     }
 
@@ -238,6 +238,14 @@ strong {
     }
 
     .itens__lista__home {
-        padding-block: 0.5rem; /* Menos espaçamento vertical */
+        padding-block: 0.5rem;
+    }
+
+    .itens__home__1 {
+        font-size: 12px;
+    }
+
+    .itens__home {
+        font-size: 12px;
     }
 }
