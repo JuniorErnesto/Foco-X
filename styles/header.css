@@ -151,8 +151,8 @@
     }
 
     .indice__lista {
-        display: flex;
-        flex-direction: column;  /* Coloca os itens de navegação em uma coluna */
+        /* display: flex;
+        flex-direction: column; */
         font-size: 1rem;
         row-gap: 1rem;  /* Espaço entre os itens */
     }
@@ -177,12 +177,20 @@
 
     /* Ocultar o menu por padrão em dispositivos móveis */
     .indice__lista {
-        display: none; /* O menu de navegação será oculto em dispositivos móveis */
+        display: none;
     }
 
     .fa-bars:hover {
         opacity: 1;
         transform: translateY(-5px);
+    }
+}
+
+@media (max-width: 875px) {
+    .indice__lista.active {
+        font-size: 10px;
+        padding: 0 0.5rem 0.5rem 0;
+        flex-direction: row;
     }
 }
 

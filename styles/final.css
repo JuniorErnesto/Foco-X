@@ -11,34 +11,37 @@
 
 .final__direita {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     width: 50vw;
-    height: 84vh;
+    height: 100%;
 }
 
 .final__esquerda {
     display: flex;
     justify-content: center;
     width: 50vw;
-    height: 84vh;
+    height: 100%;
 }
 
 .conteudo__direita {
-    padding-left: 5rem;
+    padding-top: 5rem; 
 }
 
 .conteudo__direita p {
-    padding-top: 8rem;
-    padding-bottom: 5rem;
     font-weight: 700;
     font-size: 2rem;
+    padding-bottom: 20px;
 }
 
 .conteudo__esquerda {
-    padding-top: 10rem;
-    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
     line-height: 1.5;
-    display: none;
 }
 
 .conteudo__esquerda p {
@@ -52,6 +55,25 @@
 
 .conteudo__esquerda h2 {
     padding-bottom: 2rem;
+}
+
+.menu__final-direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    line-height: 1.5;
+}
+
+.conteudo__direita-final h1 {
+    padding-bottom: 2rem;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .footer__texto {

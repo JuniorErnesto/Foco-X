@@ -167,6 +167,8 @@
     }
 
     .texto__solucoes {
+        display: flex;
+        justify-content: center;
         padding: 0;
     }
 
@@ -182,15 +184,16 @@
     .corpo__solucoes p {
         padding-inline: 1.5rem;
         font-size: 22px;
+        width: 80%;
     }
 
     .lista__div{
         padding-block: 2rem;
-        font-size: 16px;
+        /* font-size: 16px; */
     }
 
     .solucoes__lista {
-        font-size: 48px;
+        font-size: 32px;
     }
 }
 
