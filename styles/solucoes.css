@@ -186,6 +186,7 @@
 
     .lista__div{
         padding-block: 2rem;
+        font-size: 16px;
     }
 
     .solucoes__lista {
@@ -195,14 +196,14 @@
 
 @media (max-width: 480px) {
     .titulo__solucoes {
-        font-size: 19.2px;
+        font-size: 18px;
         font-weight: 700;
         padding-top: 1rem;
     }
 
     .paragrafo__solucoes {
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
         padding: 0;
     }
 
@@ -218,6 +219,10 @@
         align-items: center;
         width: 100%;
         margin: 0;
+    }
+
+    .corpo__solucoes h1 {
+        font-size: 18px;
     }
 
     .imagem__solucoes {
@@ -252,7 +257,7 @@
         padding-inline: 1.5rem;
     }
 
-    .lista__div{
+    .lista__div {
         padding-block: 0.5rem;
     }
 

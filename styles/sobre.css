@@ -1,53 +1,101 @@
-.pagina__quatro {
-    display: flex;
-    justify-content: space-between;
+.tela__esquerda img {
+    width: 70%;
+    height: auto;
+}  
+
+.tela__esquerda h1 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-block: 20px;
 }
 
-.imagem__produto img {
-    width: 100%;
-    height: 100vh;
+.tela__esquerda p {
+    text-align: center;
+    font-size: 16px;
+    height: auto;
+    width: 50%;
 }
 
-.imagem__produto {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.texto__produto {
+.tela__esquerda {
     display: flex;
     flex-direction: column;
-    column-gap: 2rem;
-    text-align: justify;
-    line-height: 1.2;
+    align-items: center;
+}
+
+.tela__meio img {
+    width: 70%;
+    height: auto;
+}  
+
+.tela__meio h1 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-block: 20px;
+}
+
+.tela__meio p {
+    text-align: center;
+    font-size: 16px;
+    height: auto;
+    width: 50%;
+}
+
+.tela__meio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tela__direita img {
+    width: 70%;
+    height: auto;
+}  
+
+.tela__direita h1 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-block: 20px;
+}
+
+.tela__direita p {
+    text-align: center;
+    font-size: 16px;
+    height: auto;
+    width: 50%;
+}
+
+.tela__direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagina__sobre {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .titulo__sobre {
-    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
     font-weight: 700;
 }
 
-.paragrafo__quatro {
-    width: 60%;
+.titulo__sobre h1 {
     padding-block: 2rem;
-    font-size: 24px;
+    font-size: 28px;
 }
 
-.paragrafo__sobre {
-    width: 60%;
-    font-size: 24px;
+.container__sobre {
+    display: flex;
+    flex-direction: column;
 }
 
-.botao__sobre {
-    margin: 20px;
-    background-color: var(--preto);
-    color: var(--branco);
-
+.conteudo__sobre {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
 }
 
-#seta__direita {
-    padding-right: 1rem;
-    padding-left: 0;
-}
