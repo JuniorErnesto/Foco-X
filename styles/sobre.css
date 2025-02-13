@@ -109,31 +109,19 @@
         flex-direction: column;
     }
 
-    .tela__esquerda img {
-        width: 30%;
-    } 
-
-    .tela__esquerda p {
-        width: 80%;
-        padding-bottom: 10px;
+    .conteudo__sobre img {
+        width: 20%;
     }
 
-    .tela__meio img {
-        width: 30%;
-    } 
-
-    .tela__meio p {
-        width: 80%;
-        padding-bottom: 10px;
+    .conteudo__sobre h1 {
+        font-size: 30px;
+        padding-block: 10px;
     }
 
-    .tela__direita img {
-        width: 30%;
-    } 
-
-    .tela__direita p {
-        width: 80%;
-        padding-bottom: 10px;
+    .conteudo__sobre p {
+        font-size: 22px;
+        width: 60%;
+        padding-bottom: 50px;
     }
 }
 
