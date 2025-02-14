@@ -70,6 +70,41 @@
     padding-bottom: 2rem;
 }
 
+.botao__orcamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--preto);
+    border-radius: 3rem;
+    width: 60%;
+    height: 4rem;
+    background-color: var(--laranja);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 0.8rem;
+    transition: all 0.4s;
+    cursor: pointer;
+    font-size: 12px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+.botao__orcamento:hover {
+    opacity: 0.8;
+    transition: all 0.4s;
+    transform: translateY(-5px);
+}
+
+/* .botao__orcamento a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-size: 22px;
+    width: 80%;
+    height: 50%;
+} */
+
 .mapa {
     display: flex;
     justify-content: center;
@@ -125,6 +160,111 @@
 
     .menu__final-direita {
         align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo__esquerda {
+        width: 80%;
+    }
+
+    .menu__final-direita {
+        width: 80%;
+    }
+
+    .footer__conteudo {
+        flex-direction: column;
+    }
+
+    .texto__cnpj {
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .final__direita {
+        width: 100vw;
+        height: 45vh;
+    }
+
+    .conteudo__direita {
+        text-align: center;
+        width: 90%;
+        padding-top: 0;
+    }
+
+    .conteudo__direita p {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .container-botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .botao__orcamento {
+        width: 50%;
+        height: 2rem;
+        font-size: 10px;
+    }
+
+    .mapa {
+        padding-block: 10px;
+    }
+
+    .mapa iframe {
+        width: 100vw;
+        height: 150px;
+    }
+
+    .final__esquerda {
+        height: 42vh;
+    }
+
+    .final__esquerda h1 {
+        padding-bottom: 5px;
+    }
+
+    .final__esquerda h2 {
+        padding-bottom: 10px;
+    }
+
+    .final__esquerda p {
+        padding-bottom: 10px;
+    }
+
+    .conteudo__esquerda {
+        width: 50%;
+        font-size: 10px;
+    }
+
+    .menu__final-direita {
+        width: 50%;
+        font-size: 10px;
+    }
+
+    .footer__conteudo {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .cnpj {
+        width: 30vw;
+    }
+
+    .texto__cnpj {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .texto__copy {
+        font-size: 12px;
+        width: 30vw;
     }
 }
 
