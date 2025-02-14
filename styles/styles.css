@@ -59,13 +59,12 @@ footer {
     font-family: var(--fonte-principal);
     font-weight: 600;
     font-size: 0.8rem;
-    opacity: 0.6;
     transition: all 0.4s;
     cursor: pointer;
 }
 
 .button:hover {
-    opacity: 1;
+    opacity: 0.5;
     transition: all 0.4s;  
     transform: translateY(-5px); 
 }

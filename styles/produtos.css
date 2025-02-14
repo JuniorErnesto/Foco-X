@@ -28,6 +28,7 @@
 .background__img__produtos p {
     font-size: 40px;
     line-height: 1.5;
+    
 }
 
 .texto__produto {
@@ -40,4 +41,18 @@
 
 .texto__produto a {
     background-color: var(--preto);
+}
+
+@media (max-width: 480px) {
+    .background__img__produtos h1 {
+        font-size: 16px;
+    }
+
+    .background__img__produtos p {
+        font-size: 20px;
+    }
+
+    .texto__produto {
+        width: 100%;
+    }
 }

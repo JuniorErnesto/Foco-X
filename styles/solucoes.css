@@ -42,6 +42,7 @@
 
 .corpo__solucoes {
     display: flex;
+    align-items: center;
     flex-direction: column;
     max-height: fit-content;
     width: 50vw;
@@ -69,6 +70,8 @@
     overflow: hidden; 
     position: relative;
     align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 .texto__dificuldade {
@@ -84,21 +87,40 @@
     padding-block: 1rem;
 }
 
-.botao__solucoes {
-    background-color: var(--preto);
-    color: var(--branco);
-}
-
 .botao__div {
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    align-items: center;
+    color: var(--branco);
+    border-radius: 3rem;
+    width: 35%;
+    height: 4rem;
+    background-color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 0.8rem;
+    transition: all 0.4s;
+    cursor: pointer;
+    font-size: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.botao__div:hover {
+    opacity: 0.8;
+    transition: all 0.4s;
+    transform: translateY(-5px);
 }
 
 .botao__div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     color: var(--branco);
-    width: 40%;
-    background-color: var(--preto);
+    font-size: 19.2px;
+    width: 80%;
+    height: 50%;
 }
 
 .lista__div {
@@ -115,7 +137,7 @@
 }
 
 .fa-bolt {
-    padding-right: 1rem;
+    padding-right: 5px;
 }
 
 .fa-diamond {
@@ -196,8 +218,8 @@
     }
 
     .botao__div a {
-        font-size: 22px;
-        width: 50px;
+        font-size: 10px;
+        width: 100%;
     }
 
     .corpo__solucoes p {
@@ -209,7 +231,7 @@
 
     .lista__div{
         padding-block: 2rem;
-        /* font-size: 16px; */
+        font-size: 16px;
     }
 
     .solucoes__lista {
@@ -286,7 +308,9 @@
     }
 
     .botao__div {
-        padding: 10px;
+        margin-top: 10px; 
+        width: 35%;
+        height: 1rem;
     }
 
     .corpo__solucoes p {
