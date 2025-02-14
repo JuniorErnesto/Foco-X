@@ -196,7 +196,7 @@
 
     .conteudo__direita p {
         font-size: 1.5rem;
-        padding: 10px;
+        padding: 20px;
     }
 
     .container-botao {
@@ -213,7 +213,7 @@
     }
 
     .mapa {
-        padding-block: 10px;
+        padding: 0;
     }
 
     .mapa iframe {
