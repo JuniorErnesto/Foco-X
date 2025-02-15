@@ -140,7 +140,11 @@
     .conteudo__direita {
         text-align: center;
         width: 90%;
-        padding-top: 2rem
+        padding-top: 0;
+    }
+
+    .conteudo__direita p {
+        padding-bottom: 10px;
     }
 
     .container-botao {
@@ -163,6 +167,7 @@
         justify-content: center;
         width: 100%;
         height: 50%;
+        padding-top: 10px;
     }
 
     .mapa {
@@ -183,31 +188,36 @@
     .conteudo__esquerda {
         align-items: center;
         justify-content: start;
+        width: 50%;
         height: 100%;
+        font-size: 12px;
     }
 
     .menu__final-direita {
         align-items: center;
         justify-content: start;
+        width: 50%;
         height: 100%;
+        font-size: 12px;
     }
-}
-
-@media (max-width: 768px) {
-    .conteudo__esquerda {
-        width: 80%;
+    .final__esquerda h1 {
+        padding-bottom: 10px;
     }
 
-    .menu__final-direita {
-        width: 80%;
+    .final__esquerda h2 {
+        padding-bottom: 15px;
     }
 
-    .footer__conteudo {
-        flex-direction: column;
+    .final__esquerda p {
+        padding-bottom: 15px;
     }
 
     .texto__cnpj {
-        padding-top: 2rem;
+        font-size: 12px;
+    }
+
+    .texto__copy {
+        font-size: 12px;
     }
 }
 
@@ -295,6 +305,13 @@
         font-size: 10px;
         width: 30vw;
     }
+
+    @media (max-width: 330px) {
+        .email link {
+            font-size: 8px;
+        }
+
+}
 }
 
 

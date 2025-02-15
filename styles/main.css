@@ -6,11 +6,12 @@ main {
 
 .pagina__principal {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     width: 100%;
     height: 86vh;
-    margin: 0; /* Remova as margens para evitar espaços indesejados */
-    padding: 0; /* Remova os padding para evitar espaços indesejados */
+    margin: 0; 
+    padding: 0;
 }
 
 .pagina__home {
@@ -21,16 +22,16 @@ main {
 }
 
 .imagem__home {
-    width: 40vw;
-    height: auto;
-    overflow: hidden; 
-    position: relative;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    width: 40%;
+    height: 100%;
 }
 
 .imagem__principal {
-    width: 100%; /* A imagem ocupa 100% da largura do contêiner */
-    height: 100%; /* A imagem ocupa 100% da altura do contêiner */
+    width: 100%;
+    height: 100%;
 }
 
 .itens__lista__home {
@@ -67,12 +68,12 @@ main {
 }
 
 .texto__destaque {
-    width: 50%;
+    width: 500px;
     line-height: 1.3;
 }
 
 .texto__semDestaque {
-    width: 50%;
+    width: 500px;
     line-height: 1.3;
 }
 
@@ -130,52 +131,69 @@ strong {
     .pagina__principal {
         margin: 0;
         padding: 0;
-        height: 100vh;
+        height: 87vh;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
     }
 
-    .pagina__home {
-        width: 100%; /* Ocupa toda a largura da tela */
-        height: auto;
+    .pagina__home { 
         text-align: center;
-        margin-top: 5%;
+        margin-top: 0;
     }
 
     .imagem__home {
-        width: 75vw; /* A imagem ocupa toda a largura disponível */
-        height: auto; /* Ajusta a altura da imagem */
+        width: 50%; 
+        max-width: 260px;
+        height: auto;
     }
 
     .imagem__principal {
-        width: 100%; /* Ajusta a largura da imagem */
-        height: auto; /* Ajusta a altura da imagem */
+        width: 100%;
     }
 
     .texto__home {
-        font-size: 3rem; /* Tamanho de fonte menor para telas pequenas */
-        padding-block: 1rem; /* Menos espaçamento */
-    }
-
-    .itens__lista__home {
-        flex-direction: column; /* Alinha os itens da lista verticalmente */
+        width: 100%;
+        font-size: 3rem;
         padding-block: 1rem;
     }
 
-    .itens__home__1, .itens__home {
-        font-size: 22px; /* Ajuste do tamanho da fonte para itens menores */
-        padding-right: 0; /* Remove o padding para itens menores */
-        margin-bottom: 1rem; /* Espaçamento entre os itens */
+    .texto__destaque {
+        width: 100%;
+    }
+
+    .texto__semDestaque {
+        width: 100%;
+        min-width: 290px;
+    }
+    
+    .itens__lista__home {
+        flex-direction: column;
+        align-items: center;
+        padding-block: 10px;
+    }
+
+    .itens__home__1 {
+        font-size: 16px;
+        padding-right: 0; 
+        margin-bottom: 1rem; 
+        width: 200px;
+    }
+
+    .itens__home {
+        font-size: 16px;
+        padding-right: 0; 
+        margin-bottom: 1rem; 
+        width: 300px;
     }
 
     .saiba__mais {
-        padding-block: 1rem;
+        padding-block: 0;
     }
 
     .saiba__mais a {
-        width: 20%; /* Aumenta a largura do botão em dispositivos móveis */
-        font-size: 22px; /* Ajusta o tamanho da fonte do botão */
+        width: 100px; /* Aumenta a largura do botão em dispositivos móveis */
+        font-size: 14px; /* Ajusta o tamanho da fonte do botão */
     }
 
     .fa-arrow-right {
@@ -188,30 +206,32 @@ strong {
 
     .whatsapp__icon {
         position: fixed;
-        bottom: 40px; 
-        right: 25px;
+        bottom: 30px; 
+        right: 30px;
         max-width: 80px;
         max-width: 80px;
         opacity: 1;
     }
 }
 
-/* Para telas muito pequenas (celulares) */
 @media (max-width: 480px) {
 
     .pagina__principal {
-        width: 100%;
+        width: 100vw;
         height: 87vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .pagina__home {
-        font-size: 1rem; /* Ajuste de font-size */
+        font-size: 1rem;
         margin-top: 0;
     }
 
     .texto__home {
-        font-size: 1.2rem; /* Ajuste para telas muito pequenas */
-        padding-block: 0.5rem; /* Menos espaçamento */
+        font-size: 1.2rem;
+        padding-block: 0.5rem;
     }
 
     .imagem__home {
@@ -222,18 +242,22 @@ strong {
     }
 
     .imagem__principal {
-        width: 100%; /* Ajusta a imagem para ser 100% da largura */
+        width: 100%;
         height: auto;
         object-fit: contain;
     }
 
     .saiba__mais {
         width: 100%;
-        padding-block: 0.5rem;
+    }
+
+    .texto__semDestaque {
+        width: 100%;
+        min-width: 10px;
     }
 
     .saiba__mais a {
-        width: 20%; /* O botão ocupa 100% da largura */
+        width: 20%;
         font-size: 12px;
     }
 
@@ -246,6 +270,7 @@ strong {
     }
 
     .itens__home {
+        width: 100%;
         font-size: 12px;
     }
 }

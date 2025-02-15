@@ -43,6 +43,15 @@
     background-color: var(--preto);
 }
 
+@media (max-width: 1024px) {
+    .background__img__produtos h1 {
+        font-size: 16px;
+    }
+
+    .background__img__produtos p {
+        font-size: 20px;
+    }  
+}
 @media (max-width: 480px) {
     .background__img__produtos h1 {
         font-size: 16px;

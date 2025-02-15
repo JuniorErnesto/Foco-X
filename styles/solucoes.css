@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 .solucoes__paragrafo {
@@ -32,8 +32,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 2.5rem;
-    width: 50%;
+    font-size: 32px;
+    width: 70%;
 }
 
 .fa-hand-point-right {
@@ -43,9 +43,7 @@
 .solucoes__pagina {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    row-gap: 20px;
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 
@@ -54,28 +52,31 @@
     align-items: center;
     flex-direction: column;
     max-height: fit-content;
-    width: 50vw;
+    width: 50%;
     line-height: 1.5;
-    margin-right: 5rem;
+}
+
+.corpo__solucoes P {
+    width: 80%;
 }
 
 .imagem__solucoes {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40vw;
+    width: 50%;
 }
 
 .imagem__tecnico {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .imagem__tecnico img {
-    width: 80%;
+    width: 70%;
     overflow: hidden; 
     position: relative;
     align-items: center;
@@ -92,6 +93,7 @@
 .texto__solucoes {
     display: flex;
     text-align: justify;
+    justify-content: center;
     width: 100%;
     padding-block: 1rem;
 }
@@ -102,7 +104,7 @@
     align-items: center;
     color: var(--branco);
     border-radius: 3rem;
-    width: 35%;
+    width: 55%;
     height: 4rem;
     background-color: var(--preto);
     font-family: var(--fonte-principal);
@@ -136,13 +138,13 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-block: 1rem;
-    width: 100%;
-    white-space: nowrap;
+    padding-block: 16px;
+    width: 90%;
+    /* white-space: nowrap; */
 }
 
 .solucoes__lista {
-    font-size: 2rem;
+    font-size: 20px;
 }
 
 .fa-bolt {
@@ -165,6 +167,14 @@
         font-weight: 700;
     }
 
+    .superior__solucoes {
+        padding-top: 10px;
+    }
+
+    .superior__solucoes h1 {
+        font-size: 22px;
+    }
+
     .paragrafo__solucoes {
         width: 100%;
         font-size: 22px;
@@ -176,21 +186,21 @@
         flex-direction: column;
         align-items: center;
         padding: 0;
-        height: auto;
+        height: 70%;
     }
 
     .solucoes__paragrafo {
-        width: 50%;
+        width: 60%;
     }
 
     .solucoes__paragrafo p {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .corpo__solucoes {
         display: flex;
         align-items: center;
-        width: 100%;
+        width: 80%;
         margin: 0;
     }
 
@@ -201,19 +211,19 @@
     .imagem__tecnico {
         display: flex;
         justify-content: center;
+        width: 50%;
     }
 
     .imagem__tecnico img {
-        width: 75%;
+        width: 90%;
         overflow: hidden; 
         position: relative;
         align-items: center;
-        padding-block: 1rem;
     }
 
     .texto__dificuldade {
         font-size: 48px;
-        padding: 1rem;
+        padding: 10px;
     }
 
     .texto__solucoes {
@@ -223,28 +233,34 @@
     }
 
     .botao__div {
-        padding: 1rem;
+        width: 60%;
+        height: 50px;
     }
 
     .botao__div a {
-        font-size: 10px;
-        width: 100%;
+        font-size: 12px;
+        width: 50%;
+    }
+
+    .corpo__solucoes h1 {
+        font-size: 22px;
     }
 
     .corpo__solucoes p {
-        padding-inline: 1.5rem;
-        padding-bottom: 2rem;
-        font-size: 22px;
+        padding-inline: 0;
+        padding-bottom: 10px;
+        font-size: 16px;
+        text-align: center;
         width: 60%;
     }
 
     .lista__div{
-        padding-block: 2rem;
+        padding-block: 10px;
         font-size: 16px;
     }
 
     .solucoes__lista {
-        font-size: 30px;
+        font-size: 22px;
     }
 }
 
@@ -282,16 +298,18 @@
     .corpo__solucoes {
         display: flex;
         align-items: center;
-        width: 100%;
+        width: 80%;
         margin: 0;
     }
 
     .corpo__solucoes h1 {
         font-size: 18px;
+        text-align: center;
+        padding-top: 30px;
     }
 
     .imagem__solucoes {
-        width: 50%;
+        width: 80%;
     }
 
     .imagem__tecnico img {
@@ -311,26 +329,35 @@
     }
 
     .texto__solucoes p {
-        width: 80%;
+        width: 90%;
         font-size: 15px;
         padding: 0;
     }
 
-    .botao__div {
-        margin-top: 10px; 
-        width: 35%;
-        height: 1rem;
+    .botao__div { 
+        width: 60%;
+        height: 40px;
+    }
+
+    .botao__div a {
+        font-size: 10px;
     }
 
     .corpo__solucoes p {
-        padding-inline: 1.5rem;
+        padding-block: 10px;
     }
 
     .lista__div {
-        padding-block: 10px;
+        padding-block: 16px;
     }
 
     .solucoes__lista {
         font-size: 16px;
+    }
+
+    @media (max-width: 290px) {
+        .solucoes__lista {
+            font-size: 12px;
+        }
     }
 }

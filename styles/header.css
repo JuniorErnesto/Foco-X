@@ -133,7 +133,6 @@
     row-gap: 1rem;
 }
 
-/* Media query para dispositivos menores (tablet, celular) */
 @media (max-width: 1024px) {
     .container__cabecalho {
         align-items: center;
@@ -146,7 +145,7 @@
     }
 
     .logo__focox img {
-        height: 80px;  /* Ajusta o tamanho da logo para telas menores */
+        height: 80px; 
         width: auto;
     }
 
@@ -189,7 +188,6 @@
 @media (max-width: 875px) {
     .indice__lista.active {
         font-size: 10px;
-        padding: 0 0.5rem 0.5rem 0;
         flex-direction: row;
     }
 }
@@ -197,12 +195,10 @@
 @media (max-width: 640px) {
     .indice__lista.active {
         font-size: 10px;
-        padding: 0 0.5rem 0.5rem 0;
         flex-direction: column;
     }
 }
 
-/* Media query para dispositivos muito pequenos (celulares) */
 @media (max-width: 480px) {
     .cabecalho {
         width: 100vw;
