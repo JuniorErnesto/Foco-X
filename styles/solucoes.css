@@ -331,6 +331,7 @@
 
     .texto__dificuldade h1 {
         font-size: 19.2px;
+        padding: 0;
     }
 
     .texto__solucoes p {
@@ -340,7 +341,7 @@
     }
 
     .botao__div { 
-        width: 60%;
+        width: 70%;
         height: 40px;
     }
 
