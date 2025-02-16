@@ -102,6 +102,26 @@ main {
     padding: 0 1rem 0 1.5rem;
 }
 
+.home__voltar {
+    position: fixed;
+    bottom: 120px; 
+    right: 40px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    z-index: 100;
+    max-width: 70px;
+    max-width: 70px;
+    opacity: 0.8;
+    transition: all 0.4s;
+
+    &:hover {
+        opacity: 1;
+        transition: all 0.4s;
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+}
+
 .whatsapp__icon {
     position: fixed;
     bottom: 20px; 
@@ -204,10 +224,18 @@ strong {
         display: none;
     }
 
+    .home__voltar {
+        bottom: 120px; 
+        right: 20px;
+        max-width: 60px;
+        max-width: 60px;
+        opacity: 1;
+    }
+
     .whatsapp__icon {
         position: fixed;
         bottom: 30px; 
-        right: 30px;
+        right: 10px;
         max-width: 80px;
         max-width: 80px;
         opacity: 1;
