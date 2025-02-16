@@ -212,12 +212,12 @@ strong {
     }
 
     .saiba__mais a {
-        width: 100px; /* Aumenta a largura do botão em dispositivos móveis */
-        font-size: 14px; /* Ajusta o tamanho da fonte do botão */
+        width: 100px;
+        font-size: 14px;
     }
 
     .fa-arrow-right {
-        padding: 0 0.5rem; /* Ajuste o padding no ícone */
+        padding: 0 0.5rem; 
     }
 
     .indice__direita {
