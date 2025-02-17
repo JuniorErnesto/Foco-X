@@ -1,7 +1,7 @@
 .container__cabecalho {
     width: 100vw;
     background-color: var(--preto);
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     box-sizing: border-box; 
     border-bottom: 1px solid var(--cinza);
     display: flex;
@@ -27,9 +27,9 @@
 }
 
 .logo__focox img {
-    height: 100px; 
-    width: 100px; 
-    border: 1px solid var(--preto);
+    height: 6.25rem; 
+    width: 6.25rem; 
+    border: 0.0625rem solid var(--preto);
     border-radius: 50%;
 }
 
@@ -45,7 +45,7 @@
     font-family: var(--fonte-principal);
     font-size: 0.8rem;
     column-gap: 2rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 }
 
 .indice__cabecalho {
@@ -86,7 +86,7 @@
     font-family: var(--fonte-principal);
     font-size: 0.8rem;
     padding-right: 1rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     opacity: 1;
     transition: all 0.4s;
     white-space: nowrap;
@@ -144,7 +144,7 @@
 @media (max-width: 1024px) {
     .container__cabecalho {
         align-items: center;
-        padding: 10px 20px;
+        padding: 0.625rem 1.25rem;
     }
 
     .cabecalho__esquerdo {
@@ -157,7 +157,7 @@
     }
 
     .logo__focox img {
-        height: 80px; 
+        height: 5rem; 
         width: auto;
     }
 
@@ -198,34 +198,52 @@
 
 @media (max-width: 1025px) {
     .indice__lista.active {
-        font-size: 10px;
+        font-size: 0.625rem;
         flex-direction: row;
     }
 }
 
 @media (max-width: 700px) {
     .indice__lista.active {
-        font-size: 10px;
-        flex-direction: column;
+        justify-content: end;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 0.8rem;
+        column-gap: 1rem;
+        width: 100%;
     }
 }
 
 @media (max-width: 480px) {
 
+    .logo__focox {
+        justify-content: start;
+    }
+
     .logo__focox img {
-        width: 60px;
-        height: 60px;
+        width: 3.75rem;
+        height: 3.75rem;
     }
     .cabecalho {
         width: 100vw;
     }
 
+    .cabecalho__esquerdo {
+        flex-direction: row;
+        width: 50%;
+    }
+
     .indice__lista.active {
-        flex-direction:  column;
+        justify-content: end;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 0.55rem;
+        column-gap: 1rem;
+        width: 100%;
     }
 
     .container__cabecalho {
-        padding: 10px 20px;
+        padding: 0.625rem 1.25rem;
     }
 
     .indice__lista {
