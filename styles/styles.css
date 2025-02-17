@@ -88,3 +88,9 @@ footer {
     background-position: center;
     z-index: -1;
 }
+
+@media (max-width: 480px) {
+    body {
+        grid-template-rows: 5rem 1fr;
+    }
+}
