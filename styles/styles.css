@@ -55,6 +55,7 @@ footer {
     border-radius: 3rem;
     min-width: 15rem;
     min-height: 4rem;
+    border-color: var(--laranja);
     background-color: var(--laranja);
     font-family: var(--fonte-principal);
     font-weight: 600;
