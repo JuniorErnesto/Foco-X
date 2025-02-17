@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="">
     <script src="./app.js"></script>
 </head>
 <body>
@@ -123,8 +124,26 @@
                     <p>Precisa de algum equipamento? <br><strong>Entre em contato e um de nossos especialistas irá  te auxiliar a encontrar o produto certo para o seu projeto ou manutenção.</strong></p>
                 </div>
                 <div class="formulario">
-                    <!-- <button class="budget-button" onclick="location.href='#'">Request Budget</button> -->
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenj1KV081oZ0q4WO38xRyuvzHJcMG27ioLXgf-pckqoRA9EQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                    <button class="button" id="abrirFormulario">Solicitar orçamento</button>
+                        <div id="overlay" class="overlay">
+                            <div class="modal">
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenj1KV081oZ0q4WO38xRyuvzHJcMG27ioLXgf-pckqoRA9EQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                                <button id="cancelarFormulario">Cancelar</button>
+                            </div>
+                        </div>
+                        <script>
+                            const botaoAbrir = document.getElementById('abrirFormulario');
+                            const botaoCancelar = document.getElementById('cancelarFormulario');
+                            const overlay = document.getElementById('overlay');
+
+                            botaoAbrir.addEventListener('click', () => {
+                                overlay.style.display = 'flex';
+                            });
+
+                            botaoCancelar.addEventListener('click', () => {
+                                overlay.style.display = 'none';
+                            });
+                        </script>
                 </div>   
             </nav>
         </section>
