@@ -3,6 +3,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.6);
@@ -43,22 +44,28 @@
     background-color: var(--preto);
 }
 
+.formulario iframe {
+    padding-top: 1rem;
+    width: 100vw;
+    height: 50vh;
+}
+
 @media (max-width: 1024px) {
     .background__img__produtos h1 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .background__img__produtos p {
-        font-size: 20px;
+        font-size: 1.25rem;
     }  
 }
 @media (max-width: 480px) {
     .background__img__produtos h1 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .background__img__produtos p {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .texto__produto {
