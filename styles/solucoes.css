@@ -271,6 +271,10 @@
 }
 
 @media (max-width: 480px) {
+    .solucoes__geral {
+        justify-content: center;
+    }
+
     .titulo__solucoes {
         font-size: 18px;
         font-weight: 700;
@@ -278,7 +282,7 @@
     }
 
     .superior__solucoes {
-        padding-block: 10px;
+        padding-top: 1rem;
     }
 
     .paragrafo__solucoes {
@@ -287,18 +291,19 @@
     }
 
     .solucoes__paragrafo p {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .solucoes__head h1 {
+        padding: 0;
         font-size: 19.2px;
     }
 
     .solucoes__pagina {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding: 0;
     }
 
     .corpo__solucoes {
@@ -351,15 +356,16 @@
     }
 
     .corpo__solucoes p {
-        padding-block: 10px;
+        font-size: 12px;
+        padding-block: 0.5rem;
     }
 
     .lista__div {
-        padding-block: 16px;
+        padding-block: 0.63rem;
     }
 
     .solucoes__lista {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     @media (max-width: 290px) {
