@@ -304,8 +304,8 @@ strong {
     }
 
     .home__voltar {
-        bottom: 120px; 
-        right: 20px;
+        bottom: 110px; 
+        right: 11px;
         max-width: 40px;
         max-width: 40px;
         opacity: 1;
@@ -314,7 +314,7 @@ strong {
     .whatsapp__icon {
         position: fixed;
         bottom: 50px; 
-        right: 10px;
+        right: 0;
         max-width: 60px;
         max-width: 60px;
         opacity: 1;
