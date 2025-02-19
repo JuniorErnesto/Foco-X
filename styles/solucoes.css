@@ -18,14 +18,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 3rem;
+    margin-top: 3rem;
 }
 
 .solucoes__paragrafo {
     display: flex;
     justify-content: center;
     width: 90%;
-    padding: 1.5%;
+    margin: 1.5%;
 }
 
 .paragrafo__solucoes {
@@ -37,7 +37,7 @@
 }
 
 .fa-hand-point-right {
-    padding-right: 1rem;
+    margin-right: 1rem;
 }
 
 .solucoes__pagina {
@@ -77,8 +77,6 @@
 
 .imagem__tecnico img {
     width: 60%;
-    overflow: hidden; 
-    position: relative;
     align-items: center;
     border-radius: 10%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -86,7 +84,7 @@
 }
 
 .texto__dificuldade {
-    padding-top: 4rem;
+    margin-top: 4rem;
     font-size: 1.8rem;
     font-weight: 700;
 }
@@ -96,7 +94,7 @@
     text-align: justify;
     justify-content: center;
     width: 100%;
-    padding-block: 1rem;
+    margin-block: 1rem;
 }
 
 .texto__solucoes p {
@@ -144,7 +142,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-block: 16px;
+    margin-block: 16px;
     width: 90%;
     /* white-space: nowrap; */
 }
@@ -154,7 +152,7 @@
 }
 
 .fa-bolt {
-    padding-right: 5px;
+    margin-right: 5px;
 }
 
 .fa-diamond {
@@ -174,7 +172,7 @@
     }
 
     .superior__solucoes {
-        padding-top: 10px;
+        margin-top: 10px;
     }
 
     .superior__solucoes h1 {
@@ -184,14 +182,14 @@
     .paragrafo__solucoes {
         width: 100%;
         font-size: 22px;
-        padding: 0;
+        margin: 0;
     }
 
     .solucoes__pagina {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0;
+        margin: 0;
         height: 70%;
     }
 
@@ -229,13 +227,13 @@
 
     .texto__dificuldade {
         font-size: 48px;
-        padding: 10px;
+        margin: 10px;
     }
 
     .texto__solucoes {
         display: flex;
         justify-content: center;
-        padding: 0;
+        margin: 0;
     }
 
     .botao__div {
@@ -253,15 +251,15 @@
     }
 
     .corpo__solucoes p {
-        padding-inline: 0;
-        padding-bottom: 10px;
+        margin-inline: 0;
+        margin-bottom: 10px;
         font-size: 16px;
         text-align: center;
         width: 60%;
     }
 
     .lista__div{
-        padding-block: 10px;
+        margin-block: 10px;
         font-size: 16px;
     }
 
@@ -278,16 +276,16 @@
     .titulo__solucoes {
         font-size: 18px;
         font-weight: 700;
-        padding-top: 1rem;
+        margin-top: 1rem;
     }
 
     .superior__solucoes {
-        padding-top: 1rem;
+        margin-top: 1rem;
     }
 
     .paragrafo__solucoes {
         width: 100%;
-        padding: 0;
+        margin: 0;
     }
 
     .solucoes__paragrafo p {
@@ -295,7 +293,7 @@
     }
 
     .solucoes__head h1 {
-        padding: 0;
+        margin: 0;
         font-size: 19.2px;
     }
 
@@ -316,7 +314,7 @@
     .corpo__solucoes h1 {
         font-size: 18px;
         text-align: center;
-        padding-top: 30px;
+        margin-top: 30px;
     }
 
     .imagem__solucoes {
@@ -328,22 +326,22 @@
         overflow: hidden; 
         position: relative;
         align-items: center;
-        padding: 0;
+        margin: 0;
     }
 
     .texto__dificuldade {
-        padding: 10px 0 0 0;
+        margin: 10px 0 0 0;
     }
 
     .texto__dificuldade h1 {
         font-size: 19.2px;
-        padding: 0;
+        margin: 0;
     }
 
     .texto__solucoes p {
         width: 90%;
         font-size: 15px;
-        padding: 0;
+        margin: 0;
     }
 
     .botao__div { 
@@ -357,11 +355,11 @@
 
     .corpo__solucoes p {
         font-size: 12px;
-        padding-block: 0.5rem;
+        margin-block: 0.5rem;
     }
 
     .lista__div {
-        padding-block: 0.63rem;
+        margin-block: 0.63rem;
     }
 
     .solucoes__lista {

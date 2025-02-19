@@ -281,13 +281,14 @@ strong {
     }
 
     .pagina__home {
+        width: 100%;
         font-size: 1rem;
         margin-top: 0;
     }
 
     .texto__home {
         font-size: 2rem;
-        padding-block: 0.5rem;
+        padding-block: 0;
     }
 
     .imagem__home {
@@ -304,7 +305,7 @@ strong {
     }
 
     .texto__semDestaque {
-        width: 100%;
+        width: 50%;
         min-width: 10px;
     }
 
@@ -313,8 +314,8 @@ strong {
     }
 
     .itens__lista__home {
-        padding-top: 0.5rem;
-        padding-bottom: 0;
+        margin-top: 0.5rem;
+        padding: 0;
     }
 
     .itens__home__1 {
@@ -342,5 +343,9 @@ strong {
         max-width: 60px;
         max-width: 60px;
         opacity: 1;
+    }
+
+    .formulario {
+        width: 100%;
     }
 }
