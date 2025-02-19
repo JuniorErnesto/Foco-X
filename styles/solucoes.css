@@ -43,6 +43,7 @@
 .solucoes__pagina {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     width: 100vw;
     height: auto;
 }
@@ -52,7 +53,7 @@
     align-items: center;
     flex-direction: column;
     max-height: fit-content;
-    width: 50%;
+    width: 45%;
     line-height: 1.5;
 }
 
@@ -64,7 +65,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 45%;
 }
 
 .imagem__tecnico {
@@ -76,7 +77,7 @@
 }
 
 .imagem__tecnico img {
-    width: 60%;
+    width: 80%;
     align-items: center;
     border-radius: 10%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -84,9 +85,12 @@
 }
 
 .texto__dificuldade {
-    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
     font-size: 1.8rem;
     font-weight: 700;
+    width: 100%;
 }
 
 .texto__solucoes {
@@ -143,7 +147,7 @@
     justify-content: center;
     text-align: center;
     margin-block: 16px;
-    width: 90%;
+    width: 100%;
     /* white-space: nowrap; */
 }
 
