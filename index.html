@@ -51,8 +51,27 @@
                 <div class="texto__home">
                     <strong class="texto__destaque">SOLUÇÕES </strong><p class="texto__semDestaque">EM REPAROS INDUSTRIAIS</p>
                 </div>
-                <div class="saiba__mais">
-                    <a class="button" href="#">SOLICITE UM ORÇAMENTO<span><i class="fa fa-arrow-right"></i></span></a>
+                <div class="formulario">
+                    <button class="button" id="abrirFormulario">SOLICITAR ORÇAMENTO</button>
+                        <div id="overlay" class="overlay">
+                            <div class="modal">
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenj1KV081oZ0q4WO38xRyuvzHJcMG27ioLXgf-pckqoRA9EQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                                <button id="cancelarFormulario">Cancelar</button>
+                            </div>
+                        </div>
+                        <script>
+                            const botaoAbrir = document.getElementById('abrirFormulario');
+                            const botaoCancelar = document.getElementById('cancelarFormulario');
+                            const overlay = document.getElementById('overlay');
+
+                            botaoAbrir.addEventListener('click', () => {
+                                overlay.style.display = 'flex';
+                            });
+
+                            botaoCancelar.addEventListener('click', () => {
+                                overlay.style.display = 'none';
+                            });
+                        </script>
                 </div>
             </nav>
             <nav class="imagem__home">
@@ -119,28 +138,6 @@
                 <div class="background__img__produtos">
                     <h1><i class="fa fa-arrow-right" id="seta__direita"></i>PRODUTOS</h1>
                     <p>Precisa de algum equipamento? <br><strong>Entre em contato e um de nossos especialistas irá  te auxiliar a encontrar o produto certo para o seu projeto ou manutenção.</strong></p>
-                </div>
-                <div class="formulario">
-                    <button class="button" id="abrirFormulario">SOLICITAR ORÇAMENTO</button>
-                        <div id="overlay" class="overlay">
-                            <div class="modal">
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenj1KV081oZ0q4WO38xRyuvzHJcMG27ioLXgf-pckqoRA9EQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-                                <button id="cancelarFormulario">Cancelar</button>
-                            </div>
-                        </div>
-                        <script>
-                            const botaoAbrir = document.getElementById('abrirFormulario');
-                            const botaoCancelar = document.getElementById('cancelarFormulario');
-                            const overlay = document.getElementById('overlay');
-
-                            botaoAbrir.addEventListener('click', () => {
-                                overlay.style.display = 'flex';
-                            });
-
-                            botaoCancelar.addEventListener('click', () => {
-                                overlay.style.display = 'none';
-                            });
-                        </script>
                 </div>   
             </nav>
         </section>
