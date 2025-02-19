@@ -85,14 +85,6 @@ main {
     width: 100%;
 }
 
-.saiba__mais button {
-    width: 100px;
-}
-
-.saiba__mais a {
-    width: 50%;
-}
-
 .botao__saibaMais {
     padding-left: 2rem;
     text-align: left;
@@ -147,7 +139,7 @@ strong {
     font-weight: 700;
 }
 
-/* Para telas menores que 768px (tablets e celulares) */
+
 @media (max-width: 1024px) {
     .pagina__principal {
         margin: 0;
@@ -213,7 +205,6 @@ strong {
     }
 
     .saiba__mais a {
-        width: 100px;
         font-size: 14px;
     }
 
@@ -259,14 +250,14 @@ strong {
     }
 
     .texto__home {
-        font-size: 1.2rem;
+        font-size: 2rem;
         padding-block: 0.5rem;
     }
 
     .imagem__home {
         display: flex;
         justify-content: center;
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
@@ -276,30 +267,27 @@ strong {
         object-fit: contain;
     }
 
-    .saiba__mais {
-        width: 100%;
-    }
-
     .texto__semDestaque {
         width: 100%;
         min-width: 10px;
     }
 
     .saiba__mais a {
-        width: 20%;
-        font-size: 12px;
+        font-size: 0.8rem;
     }
 
     .itens__lista__home {
-        padding-block: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0;
     }
 
     .itens__home__1 {
+        width: auto;
         font-size: 12px;
     }
 
     .itens__home {
-        width: 100%;
+        width: auto;
         font-size: 12px;
     }
 
