@@ -1,7 +1,7 @@
 .container__cabecalho {
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
     background-color: var(--preto);
     padding: 0.625rem 1.25rem;
     box-sizing: border-box; 

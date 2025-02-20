@@ -225,7 +225,6 @@
     .imagem__tecnico img {
         width: 90%;
         overflow: hidden; 
-        position: relative;
         align-items: center;
     }
 
@@ -304,7 +303,7 @@
     .solucoes__pagina {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -322,13 +321,12 @@
     }
 
     .imagem__solucoes {
-        width: 80%;
+        width: 100%;
     }
 
     .imagem__tecnico img {
         width: 100%;
         overflow: hidden; 
-        position: relative;
         align-items: center;
         margin: 0;
     }

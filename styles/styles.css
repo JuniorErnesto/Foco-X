@@ -82,9 +82,8 @@ footer {
 
 .pagina__tres {
     background-image: url("../assets/Gemini_Generated_Image_7z0gm57z0gm57z0g.jpg");
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
-    width: 100vw;
     z-index: -1;
 }
 
