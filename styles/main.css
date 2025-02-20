@@ -1,6 +1,5 @@
 main {
-    width: 100%;
-    border-bottom: 1px solid var(--cinza);
+    /* border-bottom: 1px solid var(--cinza); */
     font-family: var(--fonte-principal);
 }
 
@@ -8,17 +7,26 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
     height: 86vh;
     margin: 0; 
     padding: 0;
 }
 
 .pagina__home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50vw;
-    height: auto;
-    margin-top: 7%;
+    height: 100%;
     color: var(--branco);
+}
+
+.lista__home {
+    display: flex;
+    align-items: center;
+    height: 10%;
 }
 
 .imagem__home {
@@ -29,16 +37,23 @@ main {
     height: 100%;
 }
 
+.imagem__placa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
 .imagem__principal {
     border-radius: 10%;
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 
 .itens__lista__home {
     display: flex;
     justify-content: center;
-    padding-block: 2rem;
     width: 100%;
 }
 
@@ -60,12 +75,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-block: 2rem;
     font-weight: 200;
     font-size: calc(2rem + 2vw);
     text-align: center;
     align-items: center;
     width: 100%;
+    height: 50%;
 }
 
 .texto__destaque {
@@ -112,6 +127,9 @@ main {
 .formulario {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
 }
 
 .saiba__mais {
@@ -180,29 +198,35 @@ strong {
     .pagina__principal {
         margin: 0;
         padding: 0;
-        height: 87vh;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        height: 50vh;
     }
-
+    
     .pagina__home { 
+        height: 100%;
+        width: 50%;
         text-align: center;
         margin-top: 0;
     }
 
     .imagem__home {
         width: 50%; 
-        max-width: 260px;
-        height: auto;
+        height: 100%;
+        /* max-width: 260px; */
+        /* height: auto; */
+    }
+
+    .imagem__placa {
+        display: flex;
+        align-items: center;
     }
 
     .imagem__principal {
-        width: 100%;
+        width: 40vw;
     }
 
     .texto__home {
         width: 100%;
+        height: 25%;
         font-size: 3rem;
         padding-block: 1rem;
     }
@@ -212,7 +236,7 @@ strong {
     }
 
     .texto__semDestaque {
-        width: 100%;
+        width: 50%;
         min-width: 290px;
     }
     
@@ -220,6 +244,7 @@ strong {
         flex-direction: column;
         align-items: center;
         padding-block: 10px;
+        height: 10%;
     }
 
     .itens__home__1 {
@@ -281,26 +306,36 @@ strong {
     }
 
     .pagina__home {
+        height: 50%;
         width: 100%;
         font-size: 1rem;
         margin-top: 0;
     }
 
     .texto__home {
+        height: 65%;
         font-size: 2rem;
         padding-block: 0;
+    }
+
+    .lista__home {
+        height: 25%;
+    }
+
+    .formulario {
+        height: 25%;
     }
 
     .imagem__home {
         display: flex;
         justify-content: center;
-        width: 100%;
-        height: auto;
+        width: 90%;
+        height: 40%;
     }
 
     .imagem__principal {
         width: 100%;
-        height: auto;
+        height: 100%;
         object-fit: contain;
     }
 

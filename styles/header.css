@@ -1,7 +1,11 @@
+.cabecalho {
+    max-height: 100%;
+}
+
 .container__cabecalho {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 100vw;
     background-color: var(--preto);
     padding: 0.625rem 1.25rem;
     box-sizing: border-box; 
@@ -9,15 +13,11 @@
     
 }
 
-.cabecalho {
-    max-height: fit-content;
-}
-
 .cabecalho__esquerdo {
     display: flex;
     flex-direction: row;
     column-gap: 2rem;
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -38,7 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 80%;
+    width: 70%;
 }
 
 .indice__lista {
