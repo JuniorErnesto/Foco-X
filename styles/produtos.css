@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    row-gap: 3rem;
+    /* row-gap: 3rem; */
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.6);
