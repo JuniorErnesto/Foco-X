@@ -284,6 +284,7 @@
     }
 
     .solucoes__pagina {
+        align-items: center;
         height: 80%;
     }
 
@@ -344,6 +345,7 @@
     }
 
     .imagem__solucoes {
+        display: flex;
         width: 100%;
     }
 
@@ -382,6 +384,7 @@
     }
 
     .lista__div {
+        display: flex;
         margin-block: 1rem;
     }
 

@@ -125,6 +125,7 @@
 
 @media (max-width: 1024px) {
     .titulo__sobre h1 {
+        padding: 1rem;
         font-size: 22px;
     }
 
@@ -135,22 +136,26 @@
     }
 
     .conteudo__sobre {
-        flex-direction: column;
-        height: 89%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
     }
 
     .tela__esquerda {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
-        height: 30%;
+        height: 100%;
+        width: 30%;
     }
 
     .texto-esquerda {
-        width: 50%;
+        width: 90%;
+        height: 60%;
     }
 
     .conteudo__sobre img {
-        width: 40%;
+        width: 50%;
         max-width: 260px;
     }
 
@@ -166,23 +171,28 @@
     }
 
     .tela__meio {
-        flex-direction: row-reverse;
+        flex-direction: column;
         justify-content: space-around;
-        height: 30%;
+        height: 100%;
+        width: 30%;
     }
 
     .texto-meio {
-        width: 50%;
+        width: 90%;
+        height: 60%;
     }
 
     .tela__direita {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
-        height: 30%;
+        height: 100%;
+        width: 30%;
     }
 
     .texto-direita {
-        width: 50%;
+        width: 90%;
+        height: 60%;
+
     }
 }
 
@@ -203,12 +213,17 @@
     .tela__esquerda {
         flex-direction: row;
         justify-content: space-around;
-        height: 30%;
+        width: 100%;
         margin-bottom: 30px;
     }
 
     .texto-esquerda {
+        height: 100%;
         width: 50%;
+    }
+
+    .conteudo__sobre {
+        flex-direction: column;
     }
 
     .conteudo__sobre img {
@@ -229,22 +244,24 @@
     .tela__meio {
         flex-direction: row-reverse;
         justify-content: space-around;
-        height: 30%;
+        width: 100%;
         margin-bottom: 30px;
     }
 
     .texto-meio {
+        height: 100%;
         width: 50%;
     }
 
     .tela__direita {
         flex-direction: row;
         justify-content: space-around;
-        height: 30%;
+        width: 100%;
         margin-bottom: 10px;
     }
 
     .texto-direita {
+        height: 100%;
         width: 50%;
     }
 }
