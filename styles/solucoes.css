@@ -270,8 +270,29 @@
 }
 
 @media (max-width: 950px) {
+
+    .head__solucoes {
+        height: 20%;
+    }
+
     .superior__solucoes {
-        margin: 0;
+        margin-top: 0.5rem;
+    }
+
+    .superior__solucoes p {
+        font-size: 16px;
+    }
+
+    .solucoes__pagina {
+        height: 80%;
+    }
+
+    .imagem__solucoes {
+        display: none;
+    }
+
+    .lista__div {
+        display: none;
     }
 }
 
