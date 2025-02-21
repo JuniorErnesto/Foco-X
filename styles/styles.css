@@ -32,7 +32,7 @@ html, body {
 
 body {
     display: grid;
-    grid-template-rows: 8.6rem 1fr;
+    grid-template-rows: 8rem 1fr;
     background-color: var(--preto);
 }
 
@@ -92,6 +92,12 @@ footer {
 }
 
 @media (max-width: 480px) {
+    body {
+        grid-template-rows: 5rem 1fr;
+    }
+}
+
+@media (max-width: 950px) {
     body {
         grid-template-rows: 5rem 1fr;
     }
